@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: bdimmler/multi-server
+        image: bdimmler/multi-server:v2
         env:
           - name: REDIS_HOST
             value: redis-cluster-ip-service
